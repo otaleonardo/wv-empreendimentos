@@ -3995,3 +3995,48 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+
+/*====================================
+Customize
+====================================*/
+.wrap-header{ background: url(../img/bg-header.png) top center no-repeat; z-index: 9; height: 178px; }
+
+header { }
+
+header h1{ width: 178px; height: 133px; float: left; margin: 15px 95px 0 0; padding: 0; text-indent: -9999px; background: url(../img/logo-wv-empreendimentos.png) no-repeat;}
+
+header nav{ margin: 15px 0 36px 0; padding: 0; float: left;  }
+header nav ul{ }
+header nav ul li{ float: left; list-style-type: none; margin: 0 28px 0 0;  }
+header nav ul li a{ color: #fff; font-weight: 300; font-family: 'Open Sans', sans-serif; font-size: .8em; }
+
+header .envie { float: left; margin: 0 100px 0 0; padding: 0;}
+header .envie a{text-indent: -9999px; display: block; height: 22px; float: left;}
+header .envie .email{ background: url(../img/ico-envie-email.png) no-repeat; width:142px; margin-right: 60px; }
+header .envie .amigo{ background: url(../img/ico-envie-para-um-amigo.png) no-repeat; width:163px; }
+
+header .contatos{ color: #fff; text-align: center; font-size: .8em; font-weight: 300; font-family: 'Open Sans', sans-serif; }
+
+.wrap-destaque-content-footer{ position: relative; padding: 0; top: -178px;}
+
+.wrap-content-footer{ background: url(../img/bg-content-footer.png) top center no-repeat; height: 1100px; position: relative; top:-204px; z-index: 7; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
