@@ -3432,12 +3432,12 @@ kbd {
     .pagination li.unavailable:hover a, .pagination li.unavailable a:focus {
       background: transparent; }
     .pagination li.current a {
-      background: #2ba6cb;
+      background: #4ebb36;
       color: white;
       font-weight: bold;
       cursor: default; }
       .pagination li.current a:hover, .pagination li.current a:focus {
-        background: #2ba6cb; }
+        background: #4ebb36; }
 
 .pagination-centered {
   text-align: center; }
@@ -3998,25 +3998,34 @@ a.th {
 
 
 /*====================================
-Customize
+              Customize
 ====================================*/
 body{font-family: 'Open Sans', sans-serif; font-weight: 300;}
 h1, h2, h3, h4, h5, h6{ font-weight: normal; padding: 0; margin: 0; font-family: 'Open Sans', sans-serif; font-weight: 300; }
 p{font-family: 'Open Sans', sans-serif; font-weight: 300; }
 
+.left{ float: left;}
+.right{ float: right; }
+.clear{ clear: both;}
+
 .btn{ border: none; font-family: 'Open Sans', sans-serif; font-weight: 300; box-shadow: none;}
 .btn-leia-mais{ background: url(../img/bg-btn-leia-mais.png) repeat;}
 .btn-entrar{ background: url(../img/bg-btn-area-cliente.png) repeat;}
-.btn-assinar{ background: url(../img/bg-btn-newsletter.png) repeat;}
+.btn-assinar, .btn-contato{ background: url(../img/bg-btn-newsletter.png) repeat;}
+.btn-contato:hover{ background: url(../img/bg-btn-newsletter.png) repeat;}
+
+
+.logo-fire{ background: url(../img/footer-img-interna-logo.png) no-repeat; width: 14px; height: 49px; display: block; text-indent: -9999px; position: absolute; right: 5px; bottom: 5px;}
 
 .wrap{ height: 1342px; overflow: hidden;}
+.interna .wrap{ height: inherit; overflow: inherit;}
 
 .wrap-header{ background: url(../img/bg-header.png) top center no-repeat; z-index: 9; height: 178px; }
 
-header h1{ width: 178px; height: 133px; float: left; margin: 15px 92px 0 0; padding: 0; text-indent: -9999px; background: url(../img/logo-wv-empreendimentos.png) no-repeat;}
+header h1{ width: 178px; height: 133px; float: left; margin: 15px 100px 0 0; padding: 0; text-indent: -9999px; background: url(../img/logo-wv-empreendimentos.png) no-repeat;}
 
 header nav{ margin: 15px 0 36px 0; padding: 0; float: left;  }
-header nav ul li{ float: left; list-style-type: none; margin: 0 28px 0 0;  }
+header nav ul li{ float: left; list-style-type: none; margin: 0 43px 0 0;  }
 header nav ul li a{ color: #fff; font-weight: 300; font-family: 'Open Sans', sans-serif; font-size: .8em; }
 
 header .envie { float: left; margin: 0 100px 0 0; padding: 0;}
@@ -4027,53 +4036,61 @@ header .contatos{ color: #fff; text-align: center; font-size: .8em;  }
 
 .wrap-destaque-content-footer{ position: relative; padding: 0; top: -178px; margin: 0;}
 
-.wrap-content-footer{ background: url(../img/bg-content-footer.png) center top no-repeat; height: 1100px; position: relative; top:-204px; padding-top: 204px; z-index: 7; }
+.wrap-content-footer { background: url(../img/bg-content-footer.png) center top no-repeat; height: 1100px; position: relative; top:-204px; padding-top: 204px; z-index: 7; }
 .wrap-content-footer .box-institucional{  color: #fff; float: left; }
 .wrap-content-footer .box-institucional h2, .wrap-content-footer .box-noticias h2{ color: #fff;  font-size: 40px;  }
 
-.wrap-content-footer .box-noticias{ margin: 0 0 90px 0;}
-.wrap-content-footer .box-noticias h2{  color: #003367; margin-bottom: 25px; margin: 7px 0 25px 0; }
+.wrap-content-footer .box-noticias { margin: 0 0 90px 0;}
+.wrap-content-footer .box-noticias h2 {  color: #003367; margin-bottom: 25px; margin: 7px 0 25px 0; }
 .wrap-content-footer .box-noticias ul li { list-style: none; padding-bottom: 20px; }
 .wrap-content-footer .box-noticias ul li.not1 { padding-left: 15px;}
 .wrap-content-footer .box-noticias ul li.not2 { padding-left: 30px;} 
-.wrap-content-footer .box-noticias ul li span{ font-size: 12px; color: #939393;  }
-.wrap-content-footer .box-noticias ul li h3{ font-size: 16px; font-weight: 600; color: #003367; }
-.wrap-content-footer .box-noticias ul li p{ color: #939393; font-weight: 300;   }
-.wrap-content-footer .btn-leia-mais{ float: right; font-weight: 300; font-size: 15px;}
+.wrap-content-footer .box-noticias ul li span { font-size: 12px; color: #939393;  }
+.wrap-content-footer .box-noticias ul li h3 { font-size: 16px; font-weight: 600; color: #003367; }
+.wrap-content-footer .box-noticias ul li p { color: #939393; font-weight: 300;   }
+.wrap-content-footer .btn-leia-mais { float: right; font-weight: 300; font-size: 15px;}
 
 .wrap-content-footer .box-area-cliente h2{ color: #00a742; font-family: 'Open Sans', sans-serif; font-weight: 300; margin: 0 0 6px 0; }
 .wrap-content-footer .box-area-cliente .btn-entrar{ background: url(../img/bg-btn-area-cliente.png) repeat; padding: 7px 14px 9px; height: 32px; color: #fff; }
 .wrap-content-footer .box-area-cliente input{ background: #f5f5f5; border: none; box-shadow: none; color: #666; font-size: 14px; font-weight: 300; padding: 10px;}
 
-.wrap-content-footer .box-newsletter{ padding-left: 70px; margin-bottom: 25px; }
-.wrap-content-footer .box-newsletter h2{ color: #fff;  }
-.wrap-content-footer .box-newsletter p{ color: #fff; font-size: .8em; margin-bottom: 10px; }
-.wrap-content-footer .box-newsletter .btn-assinar{ padding: 7px 14px 9px; height: 32px; color: #888; font-size: 13px;}
-.wrap-content-footer .box-newsletter input{  box-shadow: none; border: none; font-size: 14px; font-weight: 300; padding: 10px;}
+.wrap-content-footer .box-newsletter { padding-left: 70px; margin-bottom: 25px; }
+.wrap-content-footer .box-newsletter h2 { color: #fff;  }
+.wrap-content-footer .box-newsletter p { color: #fff; font-size: .8em; margin-bottom: 10px; }
+.wrap-content-footer .box-newsletter .btn-assinar { padding: 7px 14px 9px; height: 32px; color: #888; font-size: 13px;}
+.wrap-content-footer .box-newsletter input { box-shadow: none; border: none; font-size: 14px; font-weight: 300; padding: 10px;}
 
-.wrap-content-footer .box-redes-sociais{ padding-left: 50px; margin-bottom: 80px; }
-.wrap-content-footer .box-redes-sociais h2{ font-size: 30px; color: #bcbcbc; }
-.wrap-content-footer .box-redes-sociais .ico{  }
-.wrap-content-footer .box-redes-sociais .ico a{ text-indent: -99999px; background: url(../img/sprite-social-media.png) no-repeat; width:60px; height: 60px; display: block; float: left; margin-right:10px; }
-.wrap-content-footer .box-redes-sociais .ico a.facebook{ background-position: 0 0; }
-.wrap-content-footer .box-redes-sociais .ico a.twitter{ background-position: -75px 0; }
+.box-redes-sociais { padding-left: 50px; margin-bottom: 80px; }
+.box-redes-sociais h2 { font-size: 30px; color: #bcbcbc; }
+.box-redes-sociais .ico a { text-indent: -99999px; background: url(../img/sprite-social-media.png) no-repeat; width:60px; height: 60px; display: block; float: left; margin-right:10px; }
+.box-redes-sociais .ico a.facebook { background-position: 0 0; }
+.box-redes-sociais .ico a.twitter { background-position: -75px 0; }
 
-.wrap-content-footer footer{ text-align: center; color: #acacac;}
+.wrap-content-footer footer { text-align: center; color: #acacac;}
 
+.interna .wrap-interna {}
+.interna .wrap-interna h2{ font-size: 45px; font-weight: 700; color: #153666; margin: 20px 0;}
+.interna .wrap-interna p{ color: #8b8b8b; }
+.interna .wrap-interna img{ margin: 0 20px 0 0; float: left;}
+.interna .wrap-interna {}
 
+.interna footer{ background: url(../img/bg-footer-interna.png) center no-repeat; height: 260px; }
 
+.interna .box-redes-sociais {  padding-top: 50px; margin-bottom: 60px;}
 
+.interna footer .copy{ text-align: center; color: #acacac;}
 
+.interna .btn-contato{color: #8b8b8b;}
+.interna input, .interna textarea{ background: #f5f5f5; border: none; box-shadow: none; color: #666; font-size: 14px; font-weight: 300;  }
+.interna label { color: #8b8b8b;}
 
-
-
-
-
-
-
-
-
-
+.interna .empreendimentos {}
+.interna .empreendimentos {}
+.interna .empreendimentos li{ list-style: none; background: #f7f7f7; padding: 20px; margin-bottom: 25px;}
+.interna .empreendimentos li h3{ font-size: 23px; font-weight: 700; color: #153666; margin-bottom: 15px;}
+.interna .empreendimentos li iframe{ float: left; margin-right: 20px}
+.interna .empreendimentos li p{}
+.interna .empreendimentos li .btn-entrar{ padding: 6px 12px; font-weight: 300; font-size: 15px; color: #fff;}
 
 
 
